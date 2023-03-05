@@ -1,0 +1,15 @@
+.info {
+  font-size: 14px;
+  color: #3c3a3a;
+}
+
+
+.infoTitle { 
+  height: 32px;
+  background-color: #f8f7f7;
+  text-align: center;
+}
+
+.infoTitle:nth-child(2n) {
+  background-color: #dbd4d4;
+}

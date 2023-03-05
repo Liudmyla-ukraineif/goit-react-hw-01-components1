@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  width: calc(100%/2);
+  height: 6em;
+  margin: 0 auto 16px auto;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.status {
+  display: block;
+  align-items: center;
+  margin: 0 16px;
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  /* background-color: #262626; */
+}
+
+.isOnline {
+  background-color: rgb(41, 122, 41);
+}
+
+.ofLine {
+  background-color: rgb(225, 63, 63);
+}
+
+
+.avatar {
+  display: block;
+  
+}
+
+
+.name {
+  margin: 0 16px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #292828;
+}

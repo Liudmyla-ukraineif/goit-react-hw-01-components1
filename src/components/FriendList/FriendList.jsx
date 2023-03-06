@@ -3,7 +3,6 @@ import Item from '../FriendListItem/FriendListItem';
 import css from '../FriendList/FriendList.module.css';
 
 export default function FriendList({ friends }) {
-  // console.log(friends);
   return (
     <ul className={css.friendList}>
       {friends.map(({id, avatar, name, isOnline}) => (

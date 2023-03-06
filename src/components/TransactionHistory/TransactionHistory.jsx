@@ -3,8 +3,6 @@ import Item from '../TransactionItem/TransactionItem';
 import css from '../TransactionHistory/TransactionHistory.module.css';
 
 export default function TransactionHistory({ transactions }) {
-  console.log(transactions)
-
   return (
     <table className={css.transactionHistory}>
   <thead>

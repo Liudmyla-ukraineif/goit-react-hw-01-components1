@@ -7,8 +7,6 @@ import objData from '../../utils/objData';
 
 export default function Statistics({ stats, title }) {
   const objStats = objData(stats)
-  console.log(objStats)
-  // console.log(JSON.stringify(stats))
   return (
     <div>
         <Data
